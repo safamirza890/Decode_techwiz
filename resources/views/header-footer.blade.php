@@ -62,7 +62,7 @@
                 <li><a href="matches" class="nav-link">Matches</a></li>
                 <li><a href="players" class="nav-link">Players</a></li>
                 <li><a href="index#top-scores" class="nav-link">Top Scores</a></li>
-                <li><a href="" class="nav-link">News & Updates</a></li>
+                <li><a href="news" class="nav-link">News & Updates</a></li>
                 <li><a href="contact.html" class="nav-link">Login</a><a href="#" class="nav-link">Signup</a></li>
                 
               </ul>
