@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+Route::middleware('auth:sanctum')->group(function () {
+    Route::post('/tokens/create', [ApiController::class, 'createToken']);
+    Route::get('/user', [ApiController::class, 'userInfo']);
+    // Add more API routes here...
+});
