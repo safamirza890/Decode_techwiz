@@ -1,11 +1,25 @@
 @extends('header-footer')
-
+@section('body')
 <link rel="stylesheet" href="assests/css/accesories.css">
 <style>
   /* ... your existing CSS rules ... */
 </style>
 
-@section('body')
+
+
+<div class="hero overlay" style="background-image: url('assests/images/bg_3.jpg'); height:600px!important;" >
+      <div class="container" style="height:500px!important;">
+        <div class="row align-items-center">
+          <div class="col-lg-5 ml-auto">
+            <h1 class="text-white">World Cup Event</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestias repudiandae pariatur.</p>
+            <div id="date-countdown"></div>
+             
+          </div>
+        </div>
+      </div>
+    </div>
+    
 <div class="card-container">
   <div class="product-card">
     <img class="product-image" src="assests/images/person_2.jpg" alt="Product Image">

@@ -262,7 +262,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6 title-section">
-            <h2 class="heading">Videos</h2>
+            <h2 class="heading" id="top-scores">Top Scores</h2>
           </div>
           <div class="col-6 text-right">
             <div class="custom-nav">

@@ -25,3 +25,9 @@ Route::get('/accesories', function () {
 Route::get('/update_and_news', function () {
     return view('news');
 });
+Route::get('/info', function () {
+    return view('soccerinfo');
+});
+Route::get('/matches', function () {
+    return view('matches');
+});
