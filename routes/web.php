@@ -22,3 +22,6 @@ Route::get('/login', function () {
 Route::get('/accesories', function () {
     return view('accesories');
 });
+Route::get('/update_and_news', function () {
+    return view('news');
+});
