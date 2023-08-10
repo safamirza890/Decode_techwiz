@@ -22,3 +22,9 @@ Route::get('/login', function () {
 Route::get('/accesories', function () {
     return view('accesories');
 });
+Route::get('/info', function () {
+    return view('soccerinfo');
+});
+Route::get('/matches', function () {
+    return view('matches');
+});
