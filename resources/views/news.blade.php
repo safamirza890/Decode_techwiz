@@ -17,7 +17,7 @@
       <div class="magazine-column">
         <article class="article">
           <h2 class="article-title article-title--large">
-            <a href="#" class="article-link">The First Signs of <mark class="mark mark--primary">Alcoholic Liver</mark> Damage Are Not in the Liver</a>
+            <a href="#" class="article-link">The First Signs of Alcoholic Liver Damage Are Not in the Liver</a>
           </h2>
           <div class="article-excerpt">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellendus incidunt aperiam maiores expedita repudiandae mollitia nam quos, officia, at blanditiis, deleniti quo delectus a. Soluta labore dicta nobis officia!</p>
@@ -25,7 +25,7 @@
           </div>
           <div class="article-author">
             <div class="article-author-img">
-              <img src="assests/img/messi.jpg" />
+              <img src="assests/images/person_2.jpg" />
             </div>
             <div class="article-author-info">
               <dl>
@@ -47,7 +47,7 @@
       <div class="magazine-column">
         <article class="article">
           <figure class="article-img">
-            <img src="./img/messi.jpg" />
+            <img src="assests/images/person_2.jpg" />
           </figure>
           <h2 class="article-title article-title--medium">
             <a href="#" class="article-link">headings</a>
@@ -59,7 +59,7 @@
           </div>
           <div class="article-author">
             <div class="article-author-img">
-              <img src="./img/messi.jpg" />
+              <img src="assests/images/person_2.jpg" />
             </div>
 
         
@@ -79,7 +79,7 @@
               </div>
               <div class="article-author">
                 <div class="article-author-img">
-                  <img src="./img/messi.jpg" />
+                  <img src="assests/images/person_2.jpg" />
                 </div>
                 <div class="article-author-info">
                   <dl>
@@ -93,10 +93,10 @@
       <div class="magazine-column">
         <article class="article">
           <figure class="article-img">
-            <img src="./img/messi.jpg" />
+            <img src="assests/images/person_2.jpg" />
           </figure>
           <h2 class="article-title article-title--small">
-            <a href="#" class="article-link">To Become <mark class="mark mark--secondary">Happier</mark>, Ask Yourself These Two Questions Everyday</a>
+            <a href="#" class="article-link">To Become Happier, Ask Yourself These Two Questions Everyday</a>
           </h2>
           <div class="article-creditation">
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio cum suscipit doloremque animi debitis commodi quasi corrupti modi ullam dolorum iste totam quod, ea tenetur corporis error voluptas? Corrupti, nihil.</p>
@@ -104,7 +104,7 @@
         </article>
         <article class="article">
           <figure class="article-img">
-            <img src="./img/messi.jpg" />
+            <img src="assests/images/person_2.jpg" />
           </figure>
           <h2 class="article-title article-title--small">
             <a href="#" class="article-link">10 Things I Stole From People Smarter Than Me</a>
@@ -124,7 +124,7 @@
           </div>
           <div class="article-author">
             <div class="article-author-img">
-              <img src="./img/messi.jpg" />
+              <img src="assests/images/person_2.jpg" />
             </div>
             <div class="article-author-info">
               <dl>
@@ -140,7 +140,7 @@
             <span>name of Reports</span>
           </small>
           <h2 class="article-title article-title--medium">
-            <a href="#" class="article-link">Heading yahan ayegi<mark class="mark mark--tertiary">headings</mark></a>
+            <a href="#" class="article-link">Heading yahan ayegi headings</a>
           </h2>
           <div class="article-podcast-player">
            
@@ -152,7 +152,7 @@
           </div>
           <div class="article-author">
             <div class="article-author-img">
-              <img src="./img/messi.jpg" />
+              <img src="assests/images/person_2.jpg" />
             </div>
            
           </div>

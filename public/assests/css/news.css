@@ -5,13 +5,14 @@
 *:before {
   box-sizing: border-box;
 }
-
+.site-navbar{
+  position:relative!important;
+}
 body {
   font-family: "DM Sans", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
-  background-color: #f8f3eb;
-  color: #484847;
+  color: white;
   padding-bottom: 5rem;
 }
 
@@ -58,13 +59,13 @@ img {
 }
 
 .header-link {
-  color: #000;
+  color: white;
   text-decoration: none;
   margin: 0 0.75rem;
   font-weight: 500;
 }
 .header-link--button {
-  background-color: #000;
+  background-color: white;
   color: #fff;
   padding: 0.5rem 1.25rem;
 }
@@ -104,7 +105,7 @@ img {
 .page-title h1 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #000;
+  color: white;
   text-align: center;
   position: relative;
 }
@@ -164,7 +165,7 @@ img {
   font-family: "Fraunces", serif;
   font-weight: 900;
   line-height: 1.25;
-  color: #000;
+  color: white;
 }
 .article-title--large {
   font-size: 2rem;
@@ -178,15 +179,7 @@ img {
   margin-top: 0.75rem;
 }
 
-.mark {
-  background-color: #fabea1;
-}
-.mark--secondary {
-  background-color: #c2dddf;
-}
-.mark--tertiary {
-  background-color: #f8e177;
-}
+
 
 .article-excerpt,
 .article-creditation {
@@ -244,7 +237,7 @@ img {
   height: 2.25rem;
   border-radius: 12px;
   border: 0;
-  background-color: #000;
+  background-color: white;
   margin-right: 0.5rem;
 }
 .podcast-play-button svg {
