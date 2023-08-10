@@ -30,7 +30,6 @@
 
 
 </head>
-
 <body>
 
   <div class="site-wrap">
@@ -58,10 +57,14 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active"><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="matches.html" class="nav-link">Soccer Info</a></li>
+                <li><a href="matches.html" class="nav-link">Accesories</a></li>
                 <li><a href="matches.html" class="nav-link">Matches</a></li>
                 <li><a href="players.html" class="nav-link">Players</a></li>
-                <li><a href="blog.html" class="nav-link">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="blog.html" class="nav-link">Top Scores</a></li>
+                <li><a href="contact.html" class="nav-link">News & Updates</a></li>
+                <li><a href="contact.html" class="nav-link">Login</a><a href="#" class="nav-link">Signup</a></li>
+                
               </ul>
             </nav>
 
@@ -170,7 +173,7 @@
   <script src="assests/js/jquery.mb.YTPlayer.min.js"></script>
 
 
-  <script src="js/main.js"></script>
+  <script src="assests/js/main.js"></script>
 
 </body>
 

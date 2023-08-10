@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('forms');
 });
+Route::get('/accesories', function () {
+    return view('accesories');
+});
