@@ -22,7 +22,7 @@ Route::get('/login', function () {
 Route::get('/accesories', function () {
     return view('accesories');
 });
-Route::get('/update_and_news', function () {
+Route::get('/news', function () {
     return view('news');
 });
 Route::get('/info', function () {
