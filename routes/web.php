@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,9 +21,9 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('forms');
 });
-Route::get('/accesories', function () {
-    return view('accesories');
-});
+
+
+Route::get('/products', [ProductController::class, 'index']);
 Route::get('/news', function () {
     return view('news');
 });
@@ -30,4 +32,8 @@ Route::get('/info', function () {
 });
 Route::get('/matches', function () {
     return view('matches');
+});
+Route::prefix('admin')->group(function () {
+    Route::get('/products/create', [ProductController::class, 'create'])->name('admin.products.create');
+    Route::post('/products', [ProductController::class, 'store'])->name('admin.products.store');
 });

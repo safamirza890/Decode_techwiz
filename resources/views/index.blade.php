@@ -240,7 +240,7 @@
                     <td>3</td>
                     <td>2</td>
                     <td>140</td>
-                  </tr>
+              </tr>
                   <tr>
                     <td>8</td>
                     <td><strong class="text-white">Gravity Smash</strong></td>
