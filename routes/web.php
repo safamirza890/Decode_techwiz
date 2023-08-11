@@ -30,3 +30,4 @@ Route::get('/info', function () {
 Route::get('/matches', function () {
     return view('matches');
 });
+Route::POST('/index',[admincontroller::class,('InsertSignupRecord')]);
