@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\NewsController;
 
 
 /*
@@ -21,9 +20,7 @@ Route::get('/', function () {
 Route::get('/login', function () {
     return view('forms');
 });
-Route::get('/accesories', function () {
-    return view('accesories');
-});
+Route::get('/products', [ProductController::class, 'index']);
 Route::get('/news', function () {
     return view('news');
 });
